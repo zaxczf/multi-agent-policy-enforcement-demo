@@ -42,6 +42,7 @@ Extensible Design – Add new roles, rules, and event-handling modules easily.
 
 
 # 📂 Project Structure
+
 rules/          # YAML rules
 logs/           # Audit logs (JSONL)
 demo/           # Demo scripts
