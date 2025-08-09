@@ -19,6 +19,7 @@ flowchart LR
     AG2 --> A
     FW --> A
     R --> A
+```
 
 # Multi-Agent Policy Enforcement & Audit Demo
 
