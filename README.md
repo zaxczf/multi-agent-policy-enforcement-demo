@@ -42,13 +42,13 @@ Extensible Design – Add new roles, rules, and event-handling modules easily.
 
 
 # 📂 Project Structure
-
+```
 rules/          # YAML rules
 logs/           # Audit logs (JSONL)
 demo/           # Demo scripts
 ROADMAP.md      # Planned features
 SECURITY.md     # Security policy
-
+```
 # Quick Start
 
 Clone the repo
