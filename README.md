@@ -20,7 +20,6 @@ flowchart LR
     FW --> A
     R --> A
 
-
 # Multi-Agent Policy Enforcement & Audit Demo
 
 本專案示範一個多代理（Multi-Agent）系統如何在安全治理場景下運作，透過 **規則引擎 (Policy Engine)** 與 **審計系統 (Audit Logging)**，達成自動化的任務分派、敏感請求防護與可追蹤性。
