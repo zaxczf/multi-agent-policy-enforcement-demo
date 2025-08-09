@@ -31,8 +31,45 @@ flowchart LR
     FW --> A
     R --> A
 ```
+✨ Features
+● Multi-Agent Role Switching – Dynamically route tasks to different AI agents based on intent and rules.
 
+● Policy Enforcement – Define allowed/denied actions via YAML rules.
+
+● Full Audit Trail – Log every decision and action into JSONL format for traceability.
+
+Extensible Design – Add new roles, rules, and event-handling modules easily.
 # Multi-Agent Policy Enforcement & Audit Demo
+
+📂 Project Structure
+rules/          # YAML rules
+logs/           # Audit logs (JSONL)
+demo/           # Demo scripts
+ROADMAP.md      # Planned features
+SECURITY.md     # Security policy
+
+Quick Start
+
+# Clone the repo
+git clone https://github.com/yourname/multi-agent-policy-enforcement-demo.git
+cd multi-agent-policy-enforcement-demo
+
+# Run example
+python demo/demo_agent_switch.py
+
+📸Example Output
+{"timestamp": "2025-08-10T12:34:56Z", "agent": "OpsAgent", "action": "approved", "context": "database query"}
+
+🔐 Security Notes
+This repository is for demonstration purposes only.
+Do not use it in production environments without thorough review.
+
+📜 License
+This project is licensed under the MIT License.
+
+📬 Contact
+For questions or suggestions, please open an issue.
+
 
 本專案示範一個多代理（Multi-Agent）系統如何在安全治理場景下運作，透過 **規則引擎 (Policy Engine)** 與 **審計系統 (Audit Logging)**，達成自動化的任務分派、敏感請求防護與可追蹤性。
 
