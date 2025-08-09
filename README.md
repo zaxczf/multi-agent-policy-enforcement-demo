@@ -58,17 +58,17 @@ cd multi-agent-policy-enforcement-demo
 Run example
 python demo/demo_agent_switch.py
 
-📸Example Output
+# 📸Example Output
 {"timestamp": "2025-08-10T12:34:56Z", "agent": "OpsAgent", "action": "approved", "context": "database query"}
 
-🔐 Security Notes
+# 🔐 Security Notes
 This repository is for demonstration purposes only.
 Do not use it in production environments without thorough review.
 
-📜 License
+# 📜 License
 This project is licensed under the MIT License.
 
-📬 Contact
+# 📬 Contact
 For questions or suggestions, please open an issue.
 
 
