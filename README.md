@@ -39,7 +39,7 @@ flowchart LR
 ● Full Audit Trail – Log every decision and action into JSONL format for traceability.
 
 Extensible Design – Add new roles, rules, and event-handling modules easily.
-# Multi-Agent Policy Enforcement & Audit Demo
+
 
 # 📂 Project Structure
 rules/          # YAML rules
