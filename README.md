@@ -50,11 +50,11 @@ SECURITY.md     # Security policy
 
 # Quick Start
 
-# Clone the repo
+Clone the repo
 git clone https://github.com/yourname/multi-agent-policy-enforcement-demo.git
 cd multi-agent-policy-enforcement-demo
 
-# Run example
+Run example
 python demo/demo_agent_switch.py
 
 📸Example Output
