@@ -11,7 +11,7 @@
 ```mermaid
 flowchart LR
     U[User Request] --> D[Dispatcher]
-    D -->|Intent & Context| R[Rule Engine (YAML)]
+    D -->|Intent & Context| R[Rule Engine - YAML]
     R -->|allow| AG1[OpsAgent]
     R -->|allow| AG2[CoachAgent]
     R -->|deny/transform| FW[Safe Rewriter]
