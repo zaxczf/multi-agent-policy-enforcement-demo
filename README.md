@@ -6,7 +6,18 @@
 ![Lang](https://img.shields.io/badge/lang-Python-blue)
 ![Scope](https://img.shields.io/badge/focus-security%20governance-brightgreen)
 
-## Architecture
+---
+
+## 📜 Overview
+This project demonstrates how a **multi-agent** system can operate in a secure governance environment using:
+- **Policy Engine** (YAML-defined rules)
+- **Audit Logging** (JSONL structured logs)
+
+The system enables **automated task routing**, **security policy enforcement**, and **traceable logging** for sensitive operations.
+
+---
+
+## 🏗 Architecture
 
 ```mermaid
 flowchart LR
@@ -19,7 +30,7 @@ flowchart LR
     AG2 --> A
     FW --> A
     R --> A
-```
+
 
 # Multi-Agent Policy Enforcement & Audit Demo
 
