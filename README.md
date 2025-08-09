@@ -31,7 +31,7 @@ flowchart LR
     FW --> A
     R --> A
 ```
-✨ Features
+# ✨ Features
 ● Multi-Agent Role Switching – Dynamically route tasks to different AI agents based on intent and rules.
 
 ● Policy Enforcement – Define allowed/denied actions via YAML rules.
@@ -41,14 +41,14 @@ flowchart LR
 Extensible Design – Add new roles, rules, and event-handling modules easily.
 # Multi-Agent Policy Enforcement & Audit Demo
 
-📂 Project Structure
+# 📂 Project Structure
 rules/          # YAML rules
 logs/           # Audit logs (JSONL)
 demo/           # Demo scripts
 ROADMAP.md      # Planned features
 SECURITY.md     # Security policy
 
-Quick Start
+# Quick Start
 
 # Clone the repo
 git clone https://github.com/yourname/multi-agent-policy-enforcement-demo.git
