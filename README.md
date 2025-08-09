@@ -1,5 +1,27 @@
 # Multi-Agent Policy Enforcement & Audit Demo
 
+> Secure task routing, rule-based governance, and end-to-end auditability for multi-agent systems.
+
+![Status](https://img.shields.io/badge/status-active-informational)
+![Lang](https://img.shields.io/badge/lang-Python-blue)
+![Scope](https://img.shields.io/badge/focus-security%20governance-brightgreen)
+
+## Architecture
+
+```mermaid
+flowchart LR
+    U[User Request] --> D[Dispatcher]
+    D -->|Intent & Context| R[Rule Engine (YAML)]
+    R -->|allow| AG1[OpsAgent]
+    R -->|allow| AG2[CoachAgent]
+    R -->|deny/transform| FW[Safe Rewriter]
+    AG1 --> A[(Audit Log JSONL)]
+    AG2 --> A
+    FW --> A
+    R --> A
+
+# Multi-Agent Policy Enforcement & Audit Demo
+
 本專案示範一個多代理（Multi-Agent）系統如何在安全治理場景下運作，透過 **規則引擎 (Policy Engine)** 與 **審計系統 (Audit Logging)**，達成自動化的任務分派、敏感請求防護與可追蹤性。
 
 ## ✨ 功能亮點
