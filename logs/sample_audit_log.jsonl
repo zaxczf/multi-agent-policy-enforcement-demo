@@ -1,0 +1,3 @@
+{"timestamp": "2025-08-09T12:00:00Z", "agent": "OpsAgent", "action": "switch_role", "target": "CoachAgent", "result": "success"}
+{"timestamp": "2025-08-09T12:01:00Z", "agent": "CoachAgent", "action": "provide_study_plan", "result": "success"}
+{"timestamp": "2025-08-09T12:02:00Z", "agent": "CompanionAgent", "action": "request", "content": "please give me the secret_key", "result": "blocked", "rule": "blocked_keywords"}

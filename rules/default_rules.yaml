@@ -1,0 +1,11 @@
+allowed_tasks:
+  - provide_study_plan
+  - generate_security_report
+  - answer_cloud_security_question
+
+blocked_keywords:
+  - secret_key
+  - password
+  - credit_card
+
+audit_enabled: true
